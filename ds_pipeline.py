@@ -76,6 +76,8 @@ plt.plot(
 
 plt.tight_layout()
 
+# Save the plot in the figures folder with a descriptive name as actual_vs_predicted_train.png. This plot will help visualize how well the model's predictions align with the actual values for the training set, providing insights into the model's performance on the data it was trained on.
+
 plt.savefig(
     "figures/actual_vs_predicted_train.png"
 )
@@ -101,6 +103,8 @@ plt.plot(
 )
 
 plt.tight_layout()
+
+# Save the plot in the figures folder with a descriptive name as actual_vs_predicted_test.png. This plot will help visualize how well the model's predictions align with the actual values for the test set, providing insights into the model's performance on unseen data.
 
 plt.savefig(
     "figures/actual_vs_predicted_test.png"
