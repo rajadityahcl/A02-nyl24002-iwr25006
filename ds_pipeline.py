@@ -1,4 +1,5 @@
 # Step 1: Import libraries
+# This code implements a simple data science pipeline using the California Housing dataset. It includes loading the dataset, splitting it into training and testing sets, training a Multi-layer Perceptron Regressor, evaluating the model's performance, and visualizing the results with actual vs predicted plots for both training and testing data.
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
