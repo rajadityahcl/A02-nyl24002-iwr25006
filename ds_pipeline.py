@@ -23,6 +23,7 @@ X = df.drop("MedHouseVal", axis=1)
 y = df["MedHouseVal"]
 
 # Step 4: Train/Test Split
+# We split the dataset into a training set (80%) and a testing set (20%) to evaluate the performance of our model on unseen data. The random_state parameter ensures that the split is reproducible.    
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
