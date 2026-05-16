@@ -1,4 +1,4 @@
-This project demonstrates collaborative development and machine learning workflow using GitHub and Python. Team members work together through branches, pull requests, and continuous code reviews to improve the project collaboratively.
+This project demonstrates collaborative development and machine learning workflow using GitHub and Python. Team members(Aditya Raj and Tracie Le) work together through branches, pull requests, and continuous code reviews to improve the project collaboratively.
 
 Key Highlights:
 
