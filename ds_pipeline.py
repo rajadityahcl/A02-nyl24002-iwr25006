@@ -1,4 +1,5 @@
 # Step 1: Import libraries
+# This code implements a simple data science pipeline using the California Housing dataset. It includes loading the dataset, splitting it into training and testing sets, training a Multi-layer Perceptron Regressor, evaluating the model's performance, and visualizing the results with actual vs predicted plots for both training and testing data.
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
@@ -7,6 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Step 2: Load California Housing dataset
+# The California Housing dataset is a popular dataset for regression tasks. It contains information about various features of houses in California, such as median income, house age, and average number of rooms, along with the target variable, which is the median house value. 
 housing = fetch_california_housing(as_frame=True)
 
 # Features + target as DataFrame
