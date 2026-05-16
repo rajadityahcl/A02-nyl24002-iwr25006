@@ -32,6 +32,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Step 5: Train MLP Regressor
+# We use a Multi-layer Perceptron Regressor (MLPRegressor) from scikit-learn to model the relationship between the features and the target variable. The hidden_layer_sizes parameter specifies the architecture of the neural network, while alpha and learning_rate_init are hyperparameters that control regularization and learning rate, respectively. Early stopping is enabled to prevent overfitting, and max_iter is set to 500 to allow sufficient training iterations.
 model = MLPRegressor(
     hidden_layer_sizes=(64, 32),   # custom hyperparameter
     alpha=0.001,                   # custom hyperparameter
