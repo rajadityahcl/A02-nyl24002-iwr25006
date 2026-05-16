@@ -38,7 +38,7 @@ model = MLPRegressor(
     alpha=0.001,                   # custom hyperparameter
     learning_rate_init=0.001,      # custom hyperparameter
     early_stopping=True,
-    max_iter=300,
+    max_iter=500,
     random_state=42
 )
 
