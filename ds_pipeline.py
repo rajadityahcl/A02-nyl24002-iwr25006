@@ -8,6 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Step 2: Load California Housing dataset
+# The California Housing dataset is a popular dataset for regression tasks. It contains information about various features of houses in California, such as median income, house age, and average number of rooms, along with the target variable, which is the median house value. 
 housing = fetch_california_housing(as_frame=True)
 
 # Features + target as DataFrame
